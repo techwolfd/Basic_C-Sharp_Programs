@@ -1,0 +1,7 @@
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\Comparacion_anonimo\Comparacion_anonimo\bin\Debug\Comparacion_anonimo.exe.config
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\Comparacion_anonimo\Comparacion_anonimo\bin\Debug\Comparacion_anonimo.exe
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\Comparacion_anonimo\Comparacion_anonimo\bin\Debug\Comparacion_anonimo.pdb
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\Comparacion_anonimo\Comparacion_anonimo\obj\Debug\Comparacion_anonimo.csprojAssemblyReference.cache
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\Comparacion_anonimo\Comparacion_anonimo\obj\Debug\Comparacion_anonimo.csproj.CoreCompileInputs.cache
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\Comparacion_anonimo\Comparacion_anonimo\obj\Debug\Comparacion_anonimo.exe
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\Comparacion_anonimo\Comparacion_anonimo\obj\Debug\Comparacion_anonimo.pdb

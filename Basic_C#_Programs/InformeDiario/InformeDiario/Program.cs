@@ -10,37 +10,37 @@ namespace InformeDiario
     {
         static void Main(string[] args)
        {
-            //saludo de introduccion
-            Console.WriteLine("The Tech Academy \n");
-            Console.WriteLine("Informe diario (DR) del estudiante \n");
+            ////saludo de introduccion
+            //Console.WriteLine("The Tech Academy \n");
+            //Console.WriteLine("Informe diario (DR) del estudiante \n");
 
-            Console.WriteLine("a. Como te llamas:");//peticion y almacenado del nombre en un tipo string
-            string nombre = Console.ReadLine();
+            //Console.WriteLine("a. Como te llamas:");//peticion y almacenado del nombre en un tipo string
+            //string nombre = Console.ReadLine();
 
-            Console.WriteLine("b. En que curso estas:");
-            string nombreCurso = Console.ReadLine();
+            //Console.WriteLine("b. En que curso estas:");
+            //string nombreCurso = Console.ReadLine();
 
-            Console.WriteLine("c. que numero de pagina :");
-            string numeroPagina = Console.ReadLine();// se guarda el numero de pagina
-            int numPagina = Convert.ToInt32(numeroPagina);
+            //Console.WriteLine("c. que numero de pagina :");
+            //string numeroPagina = Console.ReadLine();// se guarda el numero de pagina
+            //int numPagina = Convert.ToInt32(numeroPagina);
 
-            Console.WriteLine("d. necesita ayuda (responder verdadero/falso) :");
-            string wantayuda = Console.ReadLine();//tipo tipo booleano 
-            bool ayuda = Convert.ToBoolean(wantayuda);
-            // typebool
+            //Console.WriteLine("d. necesita ayuda (responder verdadero/falso) :");
+            //string wantayuda = Console.ReadLine();//tipo tipo booleano 
+            //bool ayuda = Convert.ToBoolean(wantayuda);
+            //// typebool
 
-            Console.WriteLine("e. hubo alnua experiencia positiva que le gustaria compartir?");
-            string experiencia = Console.ReadLine();
+            //Console.WriteLine("e. hubo alnua experiencia positiva que le gustaria compartir?");
+            //string experiencia = Console.ReadLine();
 
-            Console.WriteLine("f. hay otro comentario:");
-            string comentario = Console.ReadLine();
+            //Console.WriteLine("f. hay otro comentario:");
+            //string comentario = Console.ReadLine();
 
-            Console.WriteLine("g. cuantas horas estudiaste hoy");
-            string horasEstudio = Console.ReadLine();//se guarda las horas estudiadad
-            int horaEst = Convert.ToInt32(horasEstudio);
-            // typebyte
+            //Console.WriteLine("g. cuantas horas estudiaste hoy");
+            //string horasEstudio = Console.ReadLine();//se guarda las horas estudiadad
+            //int horaEst = Convert.ToInt32(horasEstudio);
+            //// typebyte
 
-            Console.WriteLine("Gracias por sus respuestas. \" \n \"Un instructor responderá a esto en breve. \"\n Qué tengas un lindo día!\"\n \" Este es el final del programa.");
+            //Console.WriteLine("Gracias por sus respuestas. \" \n \"Un instructor responderá a esto en breve. \"\n Qué tengas un lindo día!\"\n \" Este es el final del programa.");
 
             ////suma de dos numeros
             //int s1 = 3;
@@ -48,6 +48,12 @@ namespace InformeDiario
             //int sums = s1 + s2;
             //Console.WriteLine(sums);
             //Console.ReadLine();
+
+            bool tof = 12 < 5;
+            Console.Write(tof);
+
+            Console.WriteLine(tof.ToString());
+            Console.ReadLine();
 
 
         }
