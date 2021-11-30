@@ -1,0 +1,7 @@
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\InformeDiario\InformeDiario\obj\Debug\InformeDiario.csprojAssemblyReference.cache
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\InformeDiario\InformeDiario\obj\Debug\InformeDiario.csproj.CoreCompileInputs.cache
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\InformeDiario\InformeDiario\bin\Debug\InformeDiario.exe.config
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\InformeDiario\InformeDiario\bin\Debug\InformeDiario.exe
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\InformeDiario\InformeDiario\bin\Debug\InformeDiario.pdb
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\InformeDiario\InformeDiario\obj\Debug\InformeDiario.exe
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\InformeDiario\InformeDiario\obj\Debug\InformeDiario.pdb
