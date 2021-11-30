@@ -9,7 +9,8 @@ namespace InformeDiario
     class Program
     {
         static void Main(string[] args)
-        {//saludo de introduccion
+       {
+            //saludo de introduccion
             Console.WriteLine("The Tech Academy \n");
             Console.WriteLine("Informe diario (DR) del estudiante \n");
 
@@ -21,23 +22,33 @@ namespace InformeDiario
 
             Console.WriteLine("c. que numero de pagina :");
             string numeroPagina = Console.ReadLine();// se guarda el numero de pagina
-            // type short 
+            int numPagina = Convert.ToInt32(numeroPagina);
 
             Console.WriteLine("d. necesita ayuda (responder verdadero/falso) :");
             string wantayuda = Console.ReadLine();//tipo tipo booleano 
+            bool ayuda = Convert.ToBoolean(wantayuda);
             // typebool
 
             Console.WriteLine("e. hubo alnua experiencia positiva que le gustaria compartir?");
-            string experiencia= Console.ReadLine();
+            string experiencia = Console.ReadLine();
 
             Console.WriteLine("f. hay otro comentario:");
             string comentario = Console.ReadLine();
 
             Console.WriteLine("g. cuantas horas estudiaste hoy");
             string horasEstudio = Console.ReadLine();//se guarda las horas estudiadad
+            int horaEst = Convert.ToInt32(horasEstudio);
             // typebyte
 
             Console.WriteLine("Gracias por sus respuestas. \" \n \"Un instructor responderá a esto en breve. \"\n Qué tengas un lindo día!\"\n \" Este es el final del programa.");
+
+            ////suma de dos numeros
+            //int s1 = 3;
+            //int s2 = 3;
+            //int sums = s1 + s2;
+            //Console.WriteLine(sums);
+            //Console.ReadLine();
+
 
         }
     }
