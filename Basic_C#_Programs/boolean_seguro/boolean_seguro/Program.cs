@@ -34,7 +34,7 @@ namespace boolean_seguro
             //Console.Write(multas < 3);
 
             Console.WriteLine("Calificado?:");//
-            bool calificado = (edad > 15 && tenerDUI == false && multas < 3);// se eluje en booleano si es verdadero que tiene mas de 15  no tiene DUI
+            bool calificado = (edad > 15 && tenerDUI == false && multas <= 3);// se eluje en booleano si es verdadero que tiene mas de 15  no tiene DUI
                                                                              // //y si tiene menos de una multa
 
             Console.Write(calificado); // se imprime el resultado 
