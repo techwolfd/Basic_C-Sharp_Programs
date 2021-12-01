@@ -1,0 +1,7 @@
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\loops while doWhile\loops while doWhile\bin\Debug\loops while doWhile.exe.config
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\loops while doWhile\loops while doWhile\bin\Debug\loops while doWhile.exe
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\loops while doWhile\loops while doWhile\bin\Debug\loops while doWhile.pdb
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\loops while doWhile\loops while doWhile\obj\Debug\loops while doWhile.csprojAssemblyReference.cache
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\loops while doWhile\loops while doWhile\obj\Debug\loops while doWhile.csproj.CoreCompileInputs.cache
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\loops while doWhile\loops while doWhile\obj\Debug\loops while doWhile.exe
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\loops while doWhile\loops while doWhile\obj\Debug\loops while doWhile.pdb
