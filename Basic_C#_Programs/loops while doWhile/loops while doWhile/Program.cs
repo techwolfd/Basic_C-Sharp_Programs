@@ -1,4 +1,11 @@
-﻿using System;
+﻿/*
+Este programa muestra la funcion de los ciclos "while" y "do while" 
+Autor: David Cortes
+Fecha de creacion: 30 de noviembre de 2021
+Feha de ultima modificacion: 30 de noviembre de 2021
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
