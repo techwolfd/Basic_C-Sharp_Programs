@@ -1,0 +1,7 @@
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\Array\Array\bin\Debug\Array.exe.config
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\Array\Array\bin\Debug\Array.exe
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\Array\Array\bin\Debug\Array.pdb
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\Array\Array\obj\Debug\Array.csprojAssemblyReference.cache
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\Array\Array\obj\Debug\Array.csproj.CoreCompileInputs.cache
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\Array\Array\obj\Debug\Array.exe
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\Array\Array\obj\Debug\Array.pdb
