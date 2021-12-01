@@ -1,0 +1,7 @@
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\boolean_seguro\boolean_seguro\bin\Debug\boolean_seguro.exe.config
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\boolean_seguro\boolean_seguro\bin\Debug\boolean_seguro.exe
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\boolean_seguro\boolean_seguro\bin\Debug\boolean_seguro.pdb
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\boolean_seguro\boolean_seguro\obj\Debug\boolean_seguro.csprojAssemblyReference.cache
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\boolean_seguro\boolean_seguro\obj\Debug\boolean_seguro.csproj.CoreCompileInputs.cache
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\boolean_seguro\boolean_seguro\obj\Debug\boolean_seguro.exe
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\boolean_seguro\boolean_seguro\obj\Debug\boolean_seguro.pdb
