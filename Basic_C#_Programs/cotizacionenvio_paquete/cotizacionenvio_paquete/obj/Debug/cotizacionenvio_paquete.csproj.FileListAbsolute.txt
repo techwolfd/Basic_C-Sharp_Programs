@@ -1,0 +1,7 @@
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\cotizacionenvio_paquete\cotizacionenvio_paquete\obj\Debug\cotizacionenvio_paquete.csprojAssemblyReference.cache
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\cotizacionenvio_paquete\cotizacionenvio_paquete\obj\Debug\cotizacionenvio_paquete.csproj.CoreCompileInputs.cache
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\cotizacionenvio_paquete\cotizacionenvio_paquete\bin\Debug\cotizacionenvio_paquete.exe.config
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\cotizacionenvio_paquete\cotizacionenvio_paquete\bin\Debug\cotizacionenvio_paquete.exe
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\cotizacionenvio_paquete\cotizacionenvio_paquete\bin\Debug\cotizacionenvio_paquete.pdb
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\cotizacionenvio_paquete\cotizacionenvio_paquete\obj\Debug\cotizacionenvio_paquete.exe
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\cotizacionenvio_paquete\cotizacionenvio_paquete\obj\Debug\cotizacionenvio_paquete.pdb
