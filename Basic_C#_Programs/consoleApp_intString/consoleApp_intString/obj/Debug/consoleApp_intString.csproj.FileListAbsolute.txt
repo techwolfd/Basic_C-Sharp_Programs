@@ -1,0 +1,7 @@
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\consoleApp_intString\consoleApp_intString\bin\Debug\consoleApp_intString.exe.config
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\consoleApp_intString\consoleApp_intString\bin\Debug\consoleApp_intString.exe
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\consoleApp_intString\consoleApp_intString\bin\Debug\consoleApp_intString.pdb
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\consoleApp_intString\consoleApp_intString\obj\Debug\consoleApp_intString.csprojAssemblyReference.cache
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\consoleApp_intString\consoleApp_intString\obj\Debug\consoleApp_intString.csproj.CoreCompileInputs.cache
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\consoleApp_intString\consoleApp_intString\obj\Debug\consoleApp_intString.exe
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\consoleApp_intString\consoleApp_intString\obj\Debug\consoleApp_intString.pdb

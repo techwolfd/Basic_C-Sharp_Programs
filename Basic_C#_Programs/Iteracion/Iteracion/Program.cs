@@ -118,6 +118,34 @@ namespace Iteracion
 
             byte[] byteArray =
 
+                try
+            {
+                Console.WriteLine("ingresa un numero");
+                int numberuno = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("ingresa otro numero");
+                int numberdos = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("dividiendo entre dos");
+                int numbertres = numberuno / numberdos;
+                Console.WriteLine(numberuno + "dividido por" + numberdos + "es igual a: " + numbertres);
+                Console.ReadLine();
+            }
+            catch (FormatException ex)
+            {
+                Console.WriteLine("porfavor ingresa solo numeros");
+                return;
+            }
+            catch(DivideByZeroException ex)
+            {
+                Console.WriteLine("porvafor no dividas entre cero");
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                Console.ReadLine();
+            }
 
            Console.ReadLine();
         }
