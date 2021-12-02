@@ -1,0 +1,7 @@
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\Iteracion\Iteracion\bin\Debug\Iteracion.exe.config
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\Iteracion\Iteracion\bin\Debug\Iteracion.exe
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\Iteracion\Iteracion\bin\Debug\Iteracion.pdb
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\Iteracion\Iteracion\obj\Debug\Iteracion.csprojAssemblyReference.cache
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\Iteracion\Iteracion\obj\Debug\Iteracion.csproj.CoreCompileInputs.cache
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\Iteracion\Iteracion\obj\Debug\Iteracion.exe
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\Iteracion\Iteracion\obj\Debug\Iteracion.pdb

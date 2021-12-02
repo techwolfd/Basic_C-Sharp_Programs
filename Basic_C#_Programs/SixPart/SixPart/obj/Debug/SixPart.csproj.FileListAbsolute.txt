@@ -1,0 +1,7 @@
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\SixPart\SixPart\bin\Debug\SixPart.exe.config
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\SixPart\SixPart\bin\Debug\SixPart.exe
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\SixPart\SixPart\bin\Debug\SixPart.pdb
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\SixPart\SixPart\obj\Debug\SixPart.csprojAssemblyReference.cache
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\SixPart\SixPart\obj\Debug\SixPart.csproj.CoreCompileInputs.cache
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\SixPart\SixPart\obj\Debug\SixPart.exe
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\SixPart\SixPart\obj\Debug\SixPart.pdb
