@@ -1,0 +1,7 @@
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\TO_21Game\TO_21Game\bin\Debug\TO_21Game.exe.config
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\TO_21Game\TO_21Game\bin\Debug\TO_21Game.exe
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\TO_21Game\TO_21Game\bin\Debug\TO_21Game.pdb
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\TO_21Game\TO_21Game\obj\Debug\TO_21Game.csprojAssemblyReference.cache
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\TO_21Game\TO_21Game\obj\Debug\TO_21Game.csproj.CoreCompileInputs.cache
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\TO_21Game\TO_21Game\obj\Debug\TO_21Game.exe
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\TO_21Game\TO_21Game\obj\Debug\TO_21Game.pdb

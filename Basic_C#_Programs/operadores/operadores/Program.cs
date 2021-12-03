@@ -37,13 +37,13 @@ namespace operadores
             //resultado = a + c - 10;
             //resultado = 6 - 10;
             //resultado = -4;
-            Console.WriteLine(resultado1);
+            Console.WriteLine("\n"+resultado1);
 
             resultado1 = (a + c - e) * d;
             //resultado = (6 - e) * d;
             //resultado = 5 * d;
             //resultado = 50;
-            Console.WriteLine(resultado1);
+            Console.WriteLine("\n" + resultado1);
 
             resultado1 = a * c / b + d * e - c % a;
             //resultado = 8 / b + d * e - c % a;
@@ -52,7 +52,66 @@ namespace operadores
             //resultado = 1 + 10 - 2;
             //resultado = 11 - 2;
             //resultado = 9;
-            Console.WriteLine(resultado1);
+            Console.WriteLine("\n" + resultado1);
+
+
+            //casting force to convert
+            object obj_s = "12345";
+            string str_i = (string)obj_s; // "12345" as string, explicit
+            Console.WriteLine(" \n casting \t" + str_i);
+
+
+            int small = 12345;
+            long big = 0;
+            big = small; // 12345 as long, implicit
+            Console.WriteLine(" \ncasting \t" + big);
+            
+            int five = 5;
+            var doubleFive = (double)five;
+            Console.WriteLine(" \ncasting \t" + doubleFive);
+
+            char aa = 'a';
+            var valueA = (int)aa;
+            Console.WriteLine(" \ncasting \t" + valueA);
+
+            float myFloat = 4.56F;
+            decimal myMoney = (decimal)myFloat;
+            Console.WriteLine(" \ncasting \t" + myMoney);
+
+
+
+
+            //parsing
+            string int_s = "12345";
+            int i = int.Parse(int_s); // 12345 as int
+            Console.WriteLine("\n\n parsing \t" + i);
+
+            string decString = "5.632";
+            decimal decValue = decimal.Parse(decString); //Value is 5.632M
+            Console.WriteLine("\n\n parsing \t" + decValue);
+
+            string testString = "10.22.2000";
+            //double decValue = double.Parse(testString); //Exception thrown here!
+
+
+
+            //Convert
+            double dub = 123.45;
+            int ii = Convert.ToInt32(dub); // 123 as int
+            Console.WriteLine(" \n\n convert \t" + ii);
+
+            string fivea = "5.0";
+            decimal decFive = Convert.ToDecimal(fivea); //Value is 5.0
+            Console.WriteLine(" \n\n convert \t" + decFive);
+
+            double myValue = 5.33;
+            string stringValue = Convert.ToString(myValue); //Value is "5.33"
+            Console.WriteLine(" \n\n convert \t" + stringValue);
+
+            int intTrue = 1;
+            bool isTrue = Convert.ToBoolean(intTrue); //Value is true because number is not 0
+            Console.WriteLine(" \n\n convert \t" + isTrue);
+
             Console.ReadLine();
         }
     }
