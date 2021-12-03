@@ -48,17 +48,10 @@ namespace consoleApp_intString
             }
             finally
             {
-                List<int> listint = new List<int>() { 1, 2, 3, 10, 20, 30, 45, 55, 65, 88, 99, 44 };
-                Console.WriteLine("a number to divide each number in the list");
-                int divisor = Convert.ToInt32(Console.ReadLine());
-                int i = 0;
-                Console.WriteLine(i);
-                while (i < listint.Count())//uso de while
-                {
-                    Console.WriteLine(listint[i] / divisor);//imprime numero i
+                
+                Console.WriteLine("program has exited the try/catch block successfully");
 
-                    i++;
-                }
+                    
                 Console.ReadLine();
             }
 
