@@ -26,9 +26,9 @@ namespace SixPart
             //for (int i = 0; i < strArray.Length; i++)
             //{
             //    strArray[i] += texto;
-                
+
             //}
-         
+
             ////Console.WriteLine(strArray.Length+"leng" + "\n");
             //for (int j = 0; j < strArray.Length; j++)
             //{
@@ -77,103 +77,85 @@ namespace SixPart
             ////part cuatro-------------------------------
 
             ////creacion de los arrays de string y entero
+
+            //List<string> listcad = new List<string>() { "cero", "uno", "dos", "tres", "cuatro", "cinco" };
+            ////array de string
+            //Console.WriteLine("\n\n PARTE 4-------------------------");
+            //Console.WriteLine("ingrese texto para buscar en la lista (numeros del cero al cinco 0-5)");
+            //string textod = Console.ReadLine();
+            //int jp = 0;
             
-            List<string> listcad = new List<string>() { "cero", "uno", "dos", "tres", "cuatro", "cinco" };
-            //array de string
-            Console.WriteLine("\n\n PARTE 4-------------------------");
-            Console.WriteLine("ingrese texto para buscar en la lista (numeros del cero al cinco 0-5)");
-            string textod = Console.ReadLine();
-            int jp = 0;
             
-            
-            for (int n = 0; n < listcad.Count; n++)
-            {
-                // Console.WriteLine("valor i" + i +": "+ strArray[i]);
+            //for (int n = 0; n < listcad.Count; n++)
+            //{
+            //    // Console.WriteLine("valor i" + i +": "+ strArray[i]);
 
-                if (textod == listcad[n])
-                {
-                    jp = 1;
-                    Console.WriteLine("el index que contiene  el texto coincidente es el: " + n);
+            //    if (textod == listcad[n])
+            //    {
+            //        jp = 1;
+            //        Console.WriteLine("el index que contiene  el texto coincidente es el: " + n);
 
-                }
-            }
-            if (jp == 0)
-            {
-                Console.WriteLine("lo que ingresaste no esta en la lista");
-            }
+            //    }
+            //}
+            //if (jp == 0)
+            //{
+            //    Console.WriteLine("lo que ingresaste no esta en la lista");
+            //}
 
-            // parte 5
-            Console.WriteLine("\n\n PARTE 5-------------------------");
+            //// parte 5
+            //Console.WriteLine("\n\n PARTE 5-------------------------");
 
-            List<string> listcadd = new List<string>() { "cero", "dos", "dos", "tres", "cuatro", "cinco" };
-            Console.WriteLine("ingrese texto para buscar en la lista: cero , uno ... cinco");
-            string textot = Console.ReadLine();
+            //List<string> listcadd = new List<string>() { "cero", "dos", "dos", "tres", "cuatro", "cinco" };
+            //Console.WriteLine("ingrese texto para buscar en la lista: cero , uno ... cinco");
+            //string textot = Console.ReadLine();
 
-            jp = 0;
+            //jp = 0;
 
-            for (int o = 0; o < listcadd.Count; o++)
-            {
+            //for (int o = 0; o < listcadd.Count; o++)
+            //{
 
-                // Console.WriteLine("valor i" + i +": "+ strArray[i]);
-                if (listcadd[o] == textot)
-                {
-                    jp = 1;
-                    Console.WriteLine("index del elemento coincidente: " + o);
+            //    // Console.WriteLine("valor i" + i +": "+ strArray[i]);
+            //    if (listcadd[o] == textot)
+            //    {
+            //        jp = 1;
+            //        Console.WriteLine("index del elemento coincidente: " + o);
 
-                }
-            }
+            //    }
+            //}
 
-            if (jp == 0)
-            {
-                Console.WriteLine("lo que ingresaste no esta en la lista");
+            //if (jp == 0)
+            //{
+            //    Console.WriteLine("lo que ingresaste no esta en la lista");
 
 
-            }
+            //}
 
             // parte 6
             Console.WriteLine("\n\n PARTE 6-------------------------");
             List<string> listcadl = new List<string>() { "cero", "one", "one", "two", "three", "one", "two", "five", "six", "cero" };
             List<string> listcad6par = new List<string> { "", "", "", "", "", "", "", "", "", "" };
-            int ind ,i = 0;
+            //int ind ,i = 0;
+                           
             foreach (string arrays in listcadl)
             {
-                
-                ind = 0;
-                i = 0;
-                Console.WriteLine("\nstring: "+ arrays);
-                listcad6par[0] = arrays;
 
-
-                
-                foreach (string arraysd in listcadl)
+                if (listcad6par.Contains(arrays))
                 {
-
-                    if(listcad6par[0] == arraysd ) { 
-
-                    //Console.WriteLine(arrays +"-> ");
-                    //if (listcad61.Exists(p => p.Equals(arrays))) {
-                        Console.WriteLine("aparece en la posicion: " + i);
-                        ind = 1;    
-                    }
-                    //}
-                    i++;
-
-
+                    Console.WriteLine(arrays + " \thave already appeared: ");
                 }
 
-                 
-                if (ind == 0)
-                Console.WriteLine("No aparece en la lista: ");
+                else if (!listcad6par.Contains(arrays))
+                {
+                    listcad6par.Add(arrays);
+                    Console.WriteLine(arrays + "\tNo have already appeared: ");
+                }
 
             }
-                
-               
-            
 
 
 
-                
-            
+
+
 
             Console.Read();
 
