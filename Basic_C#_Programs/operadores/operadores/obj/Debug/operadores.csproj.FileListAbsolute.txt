@@ -1,0 +1,7 @@
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\operadores\operadores\bin\Debug\operadores.exe.config
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\operadores\operadores\bin\Debug\operadores.exe
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\operadores\operadores\bin\Debug\operadores.pdb
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\operadores\operadores\obj\Debug\operadores.csprojAssemblyReference.cache
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\operadores\operadores\obj\Debug\operadores.csproj.CoreCompileInputs.cache
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\operadores\operadores\obj\Debug\operadores.exe
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\operadores\operadores\obj\Debug\operadores.pdb
