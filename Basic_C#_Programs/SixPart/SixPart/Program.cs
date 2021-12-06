@@ -1,4 +1,10 @@
-﻿using System;
+﻿/*
+Este programa muestra seis partes de diferentes 
+Autor: David Cortes
+Fecha de creacion: 2 de diciembre de 2021
+Feha de ultima modificacion: 6 de diciembre de 2021
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -132,8 +138,8 @@ namespace SixPart
 
             // parte 6
             Console.WriteLine("\n\n PARTE 6-------------------------");
-            List<string> listcadl = new List<string>() { "cero", "one", "one", "two", "three", "one", "two", "five", "six", "cero" };
-            List<string> listcad6par = new List<string> { "", "", "", "", "", "", "", "", "", "" };
+            List<string> listcadl = new List<string> { "cero", "one", "one", "two", "three", "one", "two", "five", "six", "cero" };
+            List<string> listcad6par = new List<string>() { "", "", "", "", "", "", "", "", "", "" };
             //int ind ,i = 0;
                            
             foreach (string arrays in listcadl)

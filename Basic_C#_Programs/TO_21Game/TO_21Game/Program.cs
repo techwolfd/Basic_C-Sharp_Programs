@@ -11,6 +11,7 @@ namespace TO_21Game
         static void Main(string[] args)
         {
             Deck deck = new Deck();
+            deck = Shuffle(deck);
             //deck.Cards = new List<Card>();
 
 
@@ -18,9 +19,38 @@ namespace TO_21Game
             //cardOne.Face = "queen";
             //cardOne.Suit = "spades";
 
-
-            Console.WriteLine (deck.Cards[0].Face + " of " + deck.Cards[0].Suit);
+            foreach(Card card in deck.Cards)
+            {
+                Console.WriteLine(card.Face + " of " + card.Suit);
+            }
+            Console.WriteLine(deck.Cards.Count);
+            
             Console.ReadLine();
+
+        }
+        /// <summary>
+        // metodo barajear shuffle
+        /// </summary>
+        /// <param name="deck"></param>
+        /// <returns></returns>
+        /// 
+        // se crea el metodo shuffle barajear tipo deck que ingresa un valor tipo deck llamado deck
+
+        public static Deck Shuffle (Deck deck)
+        {
+            List<Card> Templist = new List<Card>();
+            Random random = new Random();
+
+            while (deck.Cards.Count > 0)
+            {
+                int randomIndex = random.Next(0, deck.Cards.Count);
+                Templist.Add(deck.Cards[randomIndex]);
+                deck.Cards.RemoveAt(randomIndex); 
+            }
+            //la lista temporal la pasa a las acartas de deck
+            deck.Cards = Templist;
+            //retorna deck
+            return deck;
 
         }
     }

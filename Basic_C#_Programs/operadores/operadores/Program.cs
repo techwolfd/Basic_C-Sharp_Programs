@@ -1,4 +1,10 @@
-﻿using System;
+﻿/*
+Este programa muestra operadores
+Autor: David Cortes
+Fecha de creacion: 6 de diciembre de 2021
+Feha de ultima modificacion: 6 de diciembre de 2021
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

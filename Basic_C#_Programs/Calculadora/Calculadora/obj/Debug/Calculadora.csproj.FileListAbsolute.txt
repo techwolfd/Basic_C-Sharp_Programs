@@ -1,0 +1,7 @@
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\Calculadora\Calculadora\bin\Debug\Calculadora.exe.config
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\Calculadora\Calculadora\bin\Debug\Calculadora.exe
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\Calculadora\Calculadora\bin\Debug\Calculadora.pdb
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\Calculadora\Calculadora\obj\Debug\Calculadora.csprojAssemblyReference.cache
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\Calculadora\Calculadora\obj\Debug\Calculadora.exe
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\Calculadora\Calculadora\obj\Debug\Calculadora.pdb
