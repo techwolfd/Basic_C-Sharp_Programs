@@ -45,8 +45,8 @@ namespace Calculadora
         public static int funsum (int numero)
         {
             int numsum = numero;
-            numsum = numsum + numsum;
-            return numsum;
+            numero = numsum + numsum;
+            return numero;
         }
         //function multiplication of the same number
         public static int funmul(int numero)
