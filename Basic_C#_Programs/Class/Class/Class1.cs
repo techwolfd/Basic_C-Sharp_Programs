@@ -37,16 +37,14 @@ namespace Class
             return number;
 
         }
-        public decimal numop(decimal numero)
+        public decimal numop(out decimal numero, decimal number2)
         {
-
-            decimal number = numero;
-            int number2 = 2;
+            decimal x = number2; 
+             numero = 2;
             //operation
-            number = number * number2;
-            Console.WriteLine("number multiplicate by 2: "+number);
+            numero = numero * number2;
             //return of number
-            return number;
+            return numero;
 
         }
 

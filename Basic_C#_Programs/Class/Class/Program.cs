@@ -12,6 +12,7 @@ namespace Class
         {
             int x = 0;
             decimal y = 0;
+            decimal y1 = 0;
             Class1 obj = new Class1();
             
 
@@ -26,8 +27,10 @@ namespace Class
 
             y = x;
             //object method whit decimal
-            obj.numop(y);
+            obj.numop(out  y1, y);
 
+
+            Console.WriteLine("out y1 = y* 2 : " + y1);
             Console.Read();
         }
     }
