@@ -24,14 +24,6 @@ namespace Class_Method
             Console.Read();
 
         }
-        public static void opnumber(int num1, int num2)
-        {
-
-            //operation sum
-            num1 += 100;
-            // print of operation
-            Console.WriteLine("number 2 is : " + num2);
-
-        }
+        
     }
 }
