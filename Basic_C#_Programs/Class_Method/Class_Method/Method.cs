@@ -16,7 +16,7 @@ namespace Class_Method
         }
 
 
-        public static void opnumber(int num1, int num2)
+        public void opnumber(int num1, int num2)
         {
             
             //operation sum

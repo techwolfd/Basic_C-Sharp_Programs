@@ -16,11 +16,12 @@ namespace Class_Method
             Method metodo = new Method();
 
             //call method opnumber pass 2 number
-            Method.opnumber(2, 5);
-
+            metodo.opnumber(2, 5);
+            
             //call method opnumber pass parameters
-            Method.opnumber(x1 , x2);
+            metodo.opnumber(x1 , x2);
 
+            
             Console.Read();
 
         }
