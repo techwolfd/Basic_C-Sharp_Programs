@@ -13,7 +13,7 @@ namespace Main_Method
             //int x = 0;
             decimal xdec= 0;
             int xint = 0;
-            int xint2 =0;
+            string xint2 ;
             string xstring ;
 
 
@@ -39,7 +39,7 @@ namespace Main_Method
             xint = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("no necesary int second number");
             //read secoin number
-            xint2 = Convert.ToInt32(Console.ReadLine());
+            xint2 = Console.ReadLine();
 
 
             //call to funnummethod , if the second commented number is uncommented it works

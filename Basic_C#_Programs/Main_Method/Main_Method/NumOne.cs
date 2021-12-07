@@ -61,12 +61,12 @@ namespace Main_Method
             return numero;
         }
 
-        public static int funnummethod(int numero,int numero2 = 2)
+        public static int funnummethod(int numero,string numero2 = "2" )
         {
             
-            numero2 = Convert.ToInt32(numero2);
+            int n  = Convert.ToInt32(numero2);
             //operation sum
-            numero = numero + numero2;
+            numero = numero + n;
             // print of operation
             Console.WriteLine("method, sum two number: " + numero);
             return numero;
