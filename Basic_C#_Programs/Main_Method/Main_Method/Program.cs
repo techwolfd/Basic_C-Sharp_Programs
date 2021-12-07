@@ -41,9 +41,15 @@ namespace Main_Method
             //read secoin number
             xint2 = Console.ReadLine();
 
+            if (xint2 == "")
+            {
+                Operations.funnummethod(xint);
 
-            //call to funnummethod , if the second commented number is uncommented it works
-            Operations.funnummethod (xint/*,xint2*/);
+            }
+            else { 
+                //call to funnummethod , if the second commented number is uncommented it works
+                Operations.funnummethod (xint,xint2);
+            }
 
             Console.Read ();
 

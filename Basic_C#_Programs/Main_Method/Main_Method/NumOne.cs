@@ -63,16 +63,28 @@ namespace Main_Method
             return x;
         }
 
-        public  int funnummethod(int numero,string numero2 = "2" )
+        //method funmethod plus number2
+        public int funnummethod(int numero)
         {
-            
-            int n  = Convert.ToInt32(numero2);
+
+            int n = 0;
             //operation sum
             numero = numero + n;
             // print of operation
-            Console.WriteLine("method,  number add 2: " + numero);
+            Console.WriteLine("method,  number1 plus  2: " + numero);
             return numero;
         }
+        public int funnummethod(int numero, string numero2 = "")
+        {
+
+            int n = Convert.ToInt32(numero2);
+            //operation sum
+            numero = numero + n;
+            // print of operation
+            Console.WriteLine("method,  number1 plus number 2: " + numero);
+            return numero;
+        }
+
 
     }
 }
