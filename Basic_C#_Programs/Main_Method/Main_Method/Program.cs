@@ -42,7 +42,7 @@ namespace Main_Method
             xint2 = Convert.ToInt32(Console.ReadLine());
 
 
-            //call to funnummethod 
+            //call to funnummethod , if the second commented number is uncommented it works
             Sumnum.funnummethod (xint/*,xint2*/);
 
             Console.Read ();
