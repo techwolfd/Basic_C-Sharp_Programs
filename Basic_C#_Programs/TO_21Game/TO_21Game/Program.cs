@@ -17,6 +17,7 @@ namespace TO_21Game
         static void Main(string[] args)
         {
             Deck deck = new Deck();
+
             int timesShuffled = 0;
             deck = Shuffle(deck, out timesShuffled,3);
             //deck.Cards = new List<Card>();
@@ -31,6 +32,7 @@ namespace TO_21Game
                 Console.WriteLine(card.Face + " of " + card.Suit);
             }
             Console.WriteLine(deck.Cards.Count);
+            
             Console.WriteLine("times shuffled{0}", timesShuffled);
             Console.ReadLine();
 

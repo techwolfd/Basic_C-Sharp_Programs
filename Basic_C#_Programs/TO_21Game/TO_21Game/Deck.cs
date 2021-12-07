@@ -22,7 +22,8 @@ namespace TO_21Game
                 "Two","three","Four","Five","Six","Seven"
                 ,"Eight","Nine","Ten","Jack","Queen","King","Ace"
             };
-            foreach(string face in Faces)
+            Console.WriteLine("times one");
+            foreach (string face in Faces)
             {
                 foreach (string suit in Suits)
                 {
@@ -33,6 +34,8 @@ namespace TO_21Game
                 }
             }
         }
+        
+
         public List<Card> Cards { get; set; }
     }
 }
