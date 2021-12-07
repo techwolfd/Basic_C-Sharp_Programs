@@ -10,8 +10,7 @@ namespace Class_Method
     {
         static void Main(string[] args)
         {
-            int x1 = 3;
-            int x2 = 9;
+            
 
             Method metodo = new Method();
 
@@ -19,7 +18,7 @@ namespace Class_Method
             metodo.opnumber(2, 5);
             
             //call method opnumber pass parameters
-            metodo.opnumber(x1 , x2);
+            metodo.opnumber(num2: 300 , num1 :9);
 
             
             Console.Read();
