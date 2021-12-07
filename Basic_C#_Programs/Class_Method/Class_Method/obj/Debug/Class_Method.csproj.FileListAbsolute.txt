@@ -1,0 +1,7 @@
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\Class_Method\Class_Method\bin\Debug\Class_Method.exe.config
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\Class_Method\Class_Method\bin\Debug\Class_Method.exe
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\Class_Method\Class_Method\bin\Debug\Class_Method.pdb
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\Class_Method\Class_Method\obj\Debug\Class_Method.csprojAssemblyReference.cache
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\Class_Method\Class_Method\obj\Debug\Class_Method.csproj.CoreCompileInputs.cache
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\Class_Method\Class_Method\obj\Debug\Class_Method.exe
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\Class_Method\Class_Method\obj\Debug\Class_Method.pdb
