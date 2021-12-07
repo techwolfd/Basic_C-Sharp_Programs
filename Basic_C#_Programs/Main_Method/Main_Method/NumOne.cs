@@ -28,7 +28,7 @@ namespace Main_Method
 
         //public int num {get; set;}
         //function funsum whit int
-        public static int funnum(int numero)
+        public int funnum(int numero)
         {
             int numsum = numero;
             //operation sum
@@ -39,36 +39,38 @@ namespace Main_Method
         }
 
         //function funsum whit decimal
-        public static decimal funnum(decimal numero)
+        public int funnum(decimal numero)
         {
             decimal numsum = numero;
             //operation multiplication
             numero = numsum * numsum;
             // print of operation
-            Console.WriteLine("multiplication of the same number: " + numero);
-            return numero;
+            int x = Convert.ToInt32(numero);
+            Console.WriteLine("multiplication of the same number: " + x);
+            return x;
         }
 
         //function funsum whit string
-        public static string funnum(string numero)
+        public int funnum(string numero)
         {
             //convert to int
             int numsum = Convert.ToInt32( numero);
             //operation sum
-            numero += numsum;
+            numsum = numsum+ numsum;
             // print of operation
-            Console.WriteLine("sum of the same number: " + numero);
-            return numero;
+            int x = numsum;
+            Console.WriteLine("sum of the same number: " + x);
+            return x;
         }
 
-        public static int funnummethod(int numero,string numero2 = "2" )
+        public  int funnummethod(int numero,string numero2 = "2" )
         {
             
             int n  = Convert.ToInt32(numero2);
             //operation sum
             numero = numero + n;
             // print of operation
-            Console.WriteLine("method, sum two number: " + numero);
+            Console.WriteLine("method,  number add 2: " + numero);
             return numero;
         }
 
