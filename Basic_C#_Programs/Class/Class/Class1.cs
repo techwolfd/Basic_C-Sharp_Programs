@@ -40,11 +40,12 @@ namespace Class
         public decimal numop(out decimal numero, decimal number2)
         {
             decimal x = number2; 
+
              numero = 2;
             //operation
             numero = numero * number2;
             //return of number
-            return numero;
+            return numero   ;
 
         }
 

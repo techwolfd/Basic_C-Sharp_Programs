@@ -1,0 +1,7 @@
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\MethodsAndObjects\MethodsAndObjects\bin\Debug\MethodsAndObjects.exe.config
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\MethodsAndObjects\MethodsAndObjects\bin\Debug\MethodsAndObjects.exe
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\MethodsAndObjects\MethodsAndObjects\bin\Debug\MethodsAndObjects.pdb
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\MethodsAndObjects\MethodsAndObjects\obj\Debug\MethodsAndObjects.csprojAssemblyReference.cache
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\MethodsAndObjects\MethodsAndObjects\obj\Debug\MethodsAndObjects.csproj.CoreCompileInputs.cache
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\MethodsAndObjects\MethodsAndObjects\obj\Debug\MethodsAndObjects.exe
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\MethodsAndObjects\MethodsAndObjects\obj\Debug\MethodsAndObjects.pdb
