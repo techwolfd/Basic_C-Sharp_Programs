@@ -57,7 +57,18 @@ namespace Main_Method
             //operation sum
             numero += numsum;
             // print of operation
-            Console.WriteLine("multiplication of the same number: " + numero);
+            Console.WriteLine("sum of the same number: " + numero);
+            return numero;
+        }
+
+        public static int funnummethod(int numero,int numero2 = 2)
+        {
+            
+            numero2 = Convert.ToInt32(numero2);
+            //operation sum
+            numero = numero + numero2;
+            // print of operation
+            Console.WriteLine("method, sum two number: " + numero);
             return numero;
         }
 

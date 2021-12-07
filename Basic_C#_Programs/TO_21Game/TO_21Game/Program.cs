@@ -19,7 +19,7 @@ namespace TO_21Game
             Deck deck = new Deck();
 
             int timesShuffled = 0;
-            deck = Shuffle(deck, out timesShuffled,3);
+            deck = Shuffle(deck, out timesShuffled,5);
             //deck.Cards = new List<Card>();
 
 
