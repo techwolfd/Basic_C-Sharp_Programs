@@ -10,10 +10,13 @@ namespace MethodsAndObjects
     {
         static void Main(string[] args)
         {
+            //instance of employee
             Employee employee = new Employee();
 
+            // assign string to state
             employee.FirstName = "Muestra";
             employee.LastName = "Estudiante";
+            //method say name
             employee.SayName();
 
             Console.Read();

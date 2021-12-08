@@ -7,8 +7,17 @@ using System.Threading.Tasks;
 namespace MethodsAndObjects
 {
     // inherit of class person
-    class Employee : Person
+    public class Employee : Person
     {
         public int ID { get; set; }
+
+        //override void sayname
+        public override void SayName()
+        {
+            Console.WriteLine($"Name is:[ {FirstName } {LastName}]");
+
+            base.SayName();
+        }
     }
+    
 }

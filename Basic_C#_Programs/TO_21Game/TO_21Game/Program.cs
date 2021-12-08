@@ -16,6 +16,11 @@ namespace TO_21Game
     {
         static void Main(string[] args)
         {
+            TwentyOneGame game = new TwentyOneGame();
+            game.Players = new List<string>() { "dav", "bej", "rob" };
+            game.ListPlayers();
+            Console.ReadLine();
+
             //TwentyOneGame game = new TwentyOneGame();
             //game.Players = new List<string>() { "wolf", "bily", "jorge" };
             //game.ListPlayers();
@@ -23,21 +28,21 @@ namespace TO_21Game
             //Console.ReadLine();
 
 
-            Deck deck = new Deck();
-            deck.Shuffle(5);
-            //deck.Cards = new List<Card>();
+            //Deck deck = new Deck();
+            //deck.Shuffle(5);
+            ////deck.Cards = new List<Card>();
 
 
-            //Card cardOne = new Card();
-            //cardOne.Face = "queen";
-            //cardOne.Suit = "spades";
+            ////Card cardOne = new Card();
+            ////cardOne.Face = "queen";
+            ////cardOne.Suit = "spades";
 
-            foreach (Card card in deck.Cards)
-            {
-                Console.WriteLine(card.Face + " of " + card.Suit);
-            }
-            Console.WriteLine(deck.Cards.Count); 
-            Console.ReadLine();
+            //foreach (Card card in deck.Cards)
+            //{
+            //    Console.WriteLine(card.Face + " of " + card.Suit);
+            //}
+            //Console.WriteLine(deck.Cards.Count); 
+            //Console.ReadLine();
 
         }
         /// <summary>

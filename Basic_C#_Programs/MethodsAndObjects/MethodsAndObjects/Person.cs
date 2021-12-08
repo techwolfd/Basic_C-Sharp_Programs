@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace MethodsAndObjects
 {
-    class Person
+    //class abstract
+    public abstract class Person
     {
          
         //property firstname
@@ -15,10 +16,9 @@ namespace MethodsAndObjects
         public string LastName { get; set; }
 
         //metodo sayname and writeline name full
-        public void SayName()
+        public virtual void SayName()
         {
-            Console.WriteLine($"Name is:[ {FirstName } {LastName}]");
-
+            
         }
     }
 }
