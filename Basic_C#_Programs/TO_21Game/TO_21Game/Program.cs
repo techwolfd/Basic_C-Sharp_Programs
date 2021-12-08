@@ -16,7 +16,7 @@ namespace TO_21Game
     {
         static void Main(string[] args)
         {
-            TwentyOneGame game = new TwentyOneGame();
+            Game game = new TwentyOneGame();
             game.Players = new List<string>() { "dav", "bej", "rob" };
             game.ListPlayers();
             Console.ReadLine();

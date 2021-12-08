@@ -19,6 +19,13 @@ namespace MethodsAndObjects
             //method say name
             employee.SayName();
 
+            //creation of object iquittable 
+            IQuittable quittable = new Employee();
+             
+            //object employye is same to quitatable object
+            quittable = employee;
+            quittable.Quit();
+
             Console.Read();
         }
     }

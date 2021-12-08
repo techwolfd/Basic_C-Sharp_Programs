@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace MethodsAndObjects
 {
-    // inherit of class person
-    public class Employee : Person
+    // inherit of class person and interface IQuittable
+    public class Employee : Person , IQuittable
     {
         public int ID { get; set; }
 
@@ -17,6 +17,14 @@ namespace MethodsAndObjects
             Console.WriteLine($"Name is:[ {FirstName } {LastName}]");
 
             base.SayName();
+        }
+
+        //method quit of interface IQuittable print name only
+        public void Quit()
+        {
+
+            Console.WriteLine($"Name only:[ {FirstName }]");
+          
         }
     }
     
