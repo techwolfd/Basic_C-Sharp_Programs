@@ -31,7 +31,7 @@ namespace MethodsAndObjects
         {
 
 
-            if (employee1.ID.Equals(employee2.ID))
+            if (employee1.ID ==employee2.ID)
             {
 
                 employee1.similar = " es igual al otro empleado";

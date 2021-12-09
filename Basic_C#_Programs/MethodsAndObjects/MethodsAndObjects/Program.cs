@@ -26,18 +26,20 @@ namespace MethodsAndObjects
             //quittable = employee;
             //quittable.Quit();
 
-            //instance of employee
+            //instance of 2 employees
             Employee employee1 = new Employee();
             Employee employee2 = new Employee();
 
+            //ids= number
             employee1.ID = 01;
-            employee2.ID = 02;
+            employee2.ID = 01;
 
             //employee1.employee = new List<Employee>();
 
-            
+            //comparacion de los dos objetos sobre carga
             employee1 = employee1 == employee2;
 
+            //print of object employee.similar
             Console.WriteLine("esto "+employee1.similar);
 
             Console.Read();
