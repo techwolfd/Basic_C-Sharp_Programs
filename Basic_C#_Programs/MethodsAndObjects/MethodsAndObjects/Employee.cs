@@ -10,7 +10,7 @@ namespace MethodsAndObjects
     public class Employee : Person , IQuittable
     {
         public int ID { get; set; }
-
+        public string similar { get; set; }
         //override void sayname
         public override void SayName()
         {
@@ -26,6 +26,31 @@ namespace MethodsAndObjects
             Console.WriteLine($"Name only:[ {FirstName }]");
           
         }
+
+        public static Employee operator ==(Employee employee1, Employee employee2)
+        {
+
+
+            if (employee1.ID.Equals(employee2.ID))
+            {
+
+                employee1.similar = " es igual al otro empleado";
+            }
+            return employee1;
+
+        }
+        public static Employee operator !=(Employee employee1, Employee employee2)
+        {
+
+
+            if (employee1.ID != employee2.ID)
+            {
+
+                employee1.similar = "no es igual al otro empleado";
+            }
+            return employee1;
+        }
+
     }
     
 }
