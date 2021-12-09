@@ -19,7 +19,7 @@ namespace MethodsAndObjects
         //metodo sayname and writeline name full
         public virtual void SayName()
         {
-            
+            Console.WriteLine($"last name is:[  {LastName}]");
         }
 
         //public static Employee operator ==(Employee employee1, Employee employee2)
@@ -44,6 +44,18 @@ namespace MethodsAndObjects
         //    }
         //    return employee1;
         //}
+        DaysOfTheWeek day = DaysOfTheWeek.
+
+        public enum DaysOfTheWeek
+        {
+            monday,
+            tuesday,
+            wednesday,
+            thursday,
+            friday,
+            saturday,
+            sunday
+        }
 
     }
 }

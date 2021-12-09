@@ -29,22 +29,28 @@ namespace TO_21Game
             //game.Play();
             //Console.ReadLine();
 
+            ////sobre carga de metodos-------------
+            //Game game = new TwentyOneGame();
+            //game.Players = new List<Player>();
 
-            Game game = new TwentyOneGame();
-            game.Players = new List<Player>();
-            
-            Player player = new Player();
-            player.Name = "wolf";
+            //Player player = new Player();
+            //player.Name = "wolf";
 
-            game = game + player;
+            //game = game + player;
 
             //game = game - player;
-          
+
+
+            //Card cars = new Card();
+            //cars.Suit = Suit.Clubs;
+            //int underlyingValue = Convert.ToInt32(Suit.Diamonds);
+            //Console.WriteLine(underlyingValue);
+
             Deck deck = new Deck();
             deck.Shuffle(5);
             ////deck.Cards = new List<Card>();
 
-                
+
             ////Card cardOne = new Card();
             ////cardOne.Face = "queen";
             ////cardOne.Suit = "spades";

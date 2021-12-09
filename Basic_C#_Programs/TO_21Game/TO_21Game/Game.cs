@@ -22,16 +22,9 @@ namespace TO_21Game
             //foreach (string player in Players)
             foreach (Player player in Players)
             {
-                //Console.WriteLine(player);
-                Console.WriteLine(player);
+                //Console.WriteLine(player.Name);
+                Console.WriteLine(player.Name);
             }
-
-
-        }
-         public static Game operator+ (Game game, Player player)
-        {
-            game.Players.Add(player);
-            return game;
         }
     }
 }

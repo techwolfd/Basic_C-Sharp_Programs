@@ -10,20 +10,27 @@ namespace MethodsAndObjects
     {
         static void Main(string[] args)
         {
-            ////instance of employee
-            //Employee employee = new Employee();
+            //instance of employee
+            Employee employee = new Employee();
 
-            //// assign string to state
-            //employee.FirstName = "Muestra";
-            //employee.LastName = "Estudiante";
-            ////method say name
+            // assign string to state
+            employee.FirstName = "Muestra";
+            employee.LastName = "Estudiante";
+            //method say name
             //employee.SayName();
 
-            ////creation of object 
-            //IQuittable quittable = new Employee();
-            //quittable.Equals(employee);
-            ////object employye is same to quitatable object
-            //quittable = employee;
+            Person per = new  Employee();
+            per.FirstName = "name";
+            per.LastName = "last";
+            per.SayName();
+            //per.Quit();
+
+            //creation of object 
+            IQuittable quittable = new Employee();
+
+            quittable.Equals(employee);
+            //object employye is same to quitatable object
+            quittable = employee;
             //quittable.Quit();
 
             //instance of 2 employees

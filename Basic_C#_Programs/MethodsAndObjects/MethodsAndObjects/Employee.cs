@@ -23,7 +23,7 @@ namespace MethodsAndObjects
         public void Quit()
         {
 
-            Console.WriteLine($"Name only:[ {FirstName }]");
+            Console.WriteLine($"Name only quit emplo:[ {FirstName }]");
           
         }
 
@@ -33,20 +33,19 @@ namespace MethodsAndObjects
 
             if (employee1.ID ==employee2.ID)
             {
-
+                Console.WriteLine("es igual");
                 employee1.similar = " es igual al otro empleado";
             }
-            return employee1;
 
+            return employee1;
         }
         public static Employee operator !=(Employee employee1, Employee employee2)
         {
 
-
             if (employee1.ID != employee2.ID)
             {
-
-                employee1.similar = "no es igual al otro empleado";
+                Console.WriteLine("no es igual");
+                employee1.similar = " es igual al otro empleado";
             }
             return employee1;
         }
