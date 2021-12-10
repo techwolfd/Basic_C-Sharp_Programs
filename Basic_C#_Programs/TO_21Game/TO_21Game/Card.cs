@@ -18,7 +18,7 @@ namespace TO_21Game
     }
     public enum Suit
     {
-        Clubs=4, Diamonds=10, Hearts=12, Spades=15
+        Clubs, Diamonds, Hearts, Spades
     }
 
     public enum Face

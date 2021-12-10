@@ -46,20 +46,43 @@ namespace TO_21Game
             //int underlyingValue = Convert.ToInt32(Suit.Diamonds);
             //Console.WriteLine(underlyingValue);
 
-            Deck deck = new Deck();
-            deck.Shuffle(5);
-            ////deck.Cards = new List<Card>();
-
+            //Deck deck = new Deck();
+            //deck.Shuffle(5);
+            //////deck.Cards = new List<Card>();
+            //int n = 1;
 
             ////Card cardOne = new Card();
             ////cardOne.Face = "queen";
             ////cardOne.Suit = "spades";
 
-            foreach (Card card in deck.Cards)
-            {
-                Console.WriteLine(card.Face + " of " + card.Suit);
-            }
-            Console.WriteLine(deck.Cards.Count);
+            Deck deck = new Deck();
+
+            //int counter = 0;
+            //foreach (Card card in deck.Cards)
+            //{
+            //    if (card.Face == Face.Ace)
+            //    {
+            //        counter++;
+            //    }
+            //}
+            //int counter = deck.Cards.Count(x => x.Face == Face.Ace);
+            //Console.WriteLine(counter);
+
+            //List<Card> newlist = deck.Cards.Where(x => x.Face == Face.Jack).ToList();
+            //foreach (Card card in newlist)
+            //{
+            //    Console.WriteLine(card.Face);
+            //}
+
+            List<int> numberlist = new List<int>() { 1, 2, 3, 535, 342, 23 };
+
+            int sum = numberlist.Where(x => x > 20).Sum(); 
+            Console.WriteLine(sum);
+            //foreach (Card card in deck.Cards)
+            //{
+            //    Console.WriteLine(card.Face + " of " + card.Suit);
+            //}
+            //Console.WriteLine(deck.Cards.Count);
             Console.ReadLine();
 
         }

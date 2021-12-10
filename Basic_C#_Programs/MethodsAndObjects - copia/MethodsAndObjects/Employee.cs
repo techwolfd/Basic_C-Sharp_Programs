@@ -9,12 +9,6 @@ namespace MethodsAndObjects
     // inherit of class person and interface IQuittable
     public class Employee : Person , IQuittable
     {
-
-        //public List<Employee> empleados { get; set; }
-        //public Employee()
-        //{
-        //    empleados = new List<Employee>();
-        //}
         public int ID { get; set; }
         public string similar { get; set; }
         //override void sayname
@@ -44,21 +38,6 @@ namespace MethodsAndObjects
             }
 
             return employee1;
-            ////instance of 2 employees
-            //Employee employee1 = new Employee();
-            //Employee employee2 = new Employee();
-
-            ////ids= number
-            //employee1.ID = 01;
-            //employee2.ID = 01;
-
-            ////employee1.employee = new List<Employee>();
-
-            ////comparacion de los dos objetos sobre carga
-            //employee1 = employee1 == employee2;
-
-            ////print of object employee.similar
-            //Console.WriteLine("esto " + employee1.similar);
         }
         public static Employee operator !=(Employee employee1, Employee employee2)
         {
