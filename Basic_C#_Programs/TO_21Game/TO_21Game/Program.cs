@@ -9,6 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace TO_21Game
 {
@@ -16,6 +17,17 @@ namespace TO_21Game
     {
         static void Main(string[] args)
         {
+
+            DateTime dateTime = new DateTime(2021, 12, 10, 8, 32, 45);
+
+            TimeSpan ageGraduation = yearofgraduation - yearofbirth;
+
+            string text = "Here is some text.";
+            File.WriteAllText("C:\\Users\\David\\Documents\\GitHub\\Basic_C-_Programs\\Basic_C#_Programs\\TO_21Game_OK\\log.txt ", text);
+
+            string textread = File.ReadAllText("C:\\Users\\David\\Documents\\GitHub\\Basic_C-_Programs\\Basic_C#_Programs\\TO_21Game_OK\\log.txt ");
+
+
             //creacion de objetos tipo player y lista de jugadores
 
             //Game game = new TwentyOneGame();

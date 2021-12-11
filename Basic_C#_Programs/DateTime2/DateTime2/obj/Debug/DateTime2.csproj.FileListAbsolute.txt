@@ -1,0 +1,7 @@
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\DateTime2\DateTime2\bin\Debug\DateTime2.exe.config
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\DateTime2\DateTime2\bin\Debug\DateTime2.exe
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\DateTime2\DateTime2\bin\Debug\DateTime2.pdb
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\DateTime2\DateTime2\obj\Debug\DateTime2.csprojAssemblyReference.cache
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\DateTime2\DateTime2\obj\Debug\DateTime2.csproj.CoreCompileInputs.cache
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\DateTime2\DateTime2\obj\Debug\DateTime2.exe
+C:\Users\David\Documents\GitHub\Basic_C-_Programs\Basic_C#_Programs\DateTime2\DateTime2\obj\Debug\DateTime2.pdb
