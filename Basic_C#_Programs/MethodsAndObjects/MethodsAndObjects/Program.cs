@@ -15,7 +15,7 @@ namespace MethodsAndObjects
 
             var varnum = 3;
             
-            var name = new Person("juan");
+            var name = new Person(constri,varnum);
 
             Console.WriteLine(name);
 
