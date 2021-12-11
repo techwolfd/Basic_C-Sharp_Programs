@@ -27,8 +27,7 @@ namespace MethodsAndObjects
             Telefono = 123456789;
         }
         // constructor
-        public Person(string firstName,int telefono)
-             //: this(FirstName, "",telefono)
+        public Person(string firstName, int telefono) //: this(firstName, "",telefono)
         {
             FirstName = firstName;
             LastName = "lastn2";
