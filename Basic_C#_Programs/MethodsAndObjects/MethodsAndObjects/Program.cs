@@ -11,13 +11,13 @@ namespace MethodsAndObjects
         static void Main(string[] args)
         {
             // const variable
-            const string constri = "constante string";
+            const string constri = "jose";
 
-            var varnum = 3;
+            var varnum = 123456;
             
             var name = new Person(constri,varnum);
 
-            Console.WriteLine(name);
+            Console.WriteLine(name.FirstName + " " + name.LastName + " " + name.Telefono);
 
             Console.Read();
 

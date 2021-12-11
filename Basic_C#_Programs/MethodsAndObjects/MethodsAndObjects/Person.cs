@@ -16,27 +16,29 @@ namespace MethodsAndObjects
         //property lastname
         public string LastName { get; set; }
         //propiedad telefono
-        public long telefono { get; set; }
+        public long Telefono { get; set; }
         //
 
         //constructor
-        public Person (string FirstName, string LastName, int telefono)
+        public Person ()
         {
             FirstName = "name1";
             LastName = "lastn1";
-            telefono = 123456789;
+            Telefono = 123456789;
         }
         // constructor
-        public Person(string FirstName,int telefono)
-             : this(FirstName, "",telefono)
+        public Person(string firstName,int telefono)
+             //: this(FirstName, "",telefono)
         {
-
+            FirstName = firstName;
+            LastName = "lastn2";
+            Telefono = telefono;
         }
 
-        public Person() : this("", "", 0)
-        {
+        //public Person() : this("", "", 0)
+        //{
 
-        }
+        //}
 
         //metodo sayname and writeline name full
         public virtual void SayName()
