@@ -15,9 +15,12 @@ namespace MethodsAndObjects
 
             var varnum = 123456;
             
-            var name = new Person(constri,varnum);
-
-            Console.WriteLine(name.FirstName + " " + name.LastName + " " + name.Telefono);
+            var nameA = new Person(constri,"lopez",varnum);
+            var nameB = new Person(constri );
+            var nameC = new Person( );
+            Console.WriteLine("\n nam a"+nameA.FirstName + " " + nameA.LastName + " " + nameA.Telefono);
+            Console.WriteLine("\n" + nameB.FirstName + " " + nameB.LastName + " " + nameC.Telefono);
+            Console.WriteLine("\n" + nameC.FirstName + " " + nameB.LastName + " " + nameC.Telefono);
 
             Console.Read();
 

@@ -17,7 +17,7 @@ namespace TO_21Game
     {
         static void Main(string[] args)
         {
-
+            Console.WriteLine("Hello, {0}. Would you like to join a game of game 21 right now?", PlayerName);
 
             DateTime dateTime = new DateTime(2021, 12, 10, 8, 32, 45);
 

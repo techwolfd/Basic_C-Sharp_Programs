@@ -18,20 +18,24 @@ namespace MethodsAndObjects
         //propiedad telefono
         public long Telefono { get; set; }
         //
-
+        private string firstName;
+        private string lastName;
+        private int telefono;
         //constructor
-        public Person ()
+        public Person (string firstName, string lastName, int telefono)
         {
-            FirstName = "name1";
-            LastName = "lastn1";
-            Telefono = 123456789;
+            this.firstName = firstName;
+            this.lastName = lastName;
+            this.telefono = telefono;
         }
         // constructor
-        public Person(string firstName, int telefono) //: this(firstName, "",telefono)
+        public Person(string firstName) : this(firstName, "",0)
         {
-            FirstName = firstName;
-            LastName = "lastn2";
-            Telefono = telefono;
+           
+        }
+        public Person( ) : this("", "", 0)
+        {
+
         }
 
         //public Person() : this("", "", 0)
