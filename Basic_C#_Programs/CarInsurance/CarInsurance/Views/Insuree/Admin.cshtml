@@ -1,0 +1,110 @@
+﻿@model IEnumerable<CarInsurance.Models.Insurees>
+
+@{
+    ViewBag.Title = "Admin";
+}
+
+<h2>Admin ,Calculate a quote</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+  <tr>
+    <th>
+      @Html.DisplayNameFor(model => model.FirstName)
+    </th>
+    <th>
+      @Html.DisplayNameFor(model => model.LastName)
+    </th>
+    <th>
+      @Html.DisplayNameFor(model => model.EmailAddress)
+    </th>
+
+    <th>Age </th>
+    <th> Add * Age </th>
+    <th>Car Year</th>
+    <th>Porsche</th>
+    <th>911 Carrera</th>
+    <th>Speeding ticket</th>
+    <th>DUI</th>
+    <th>full coverage</th>
+    <th>Total</th>
+  </tr>
+
+@foreach (var item in Model)
+{
+<tr>
+  <td>
+    @Html.DisplayFor(modelItem => item.FirstName)
+  </td>
+  <td>
+    @Html.DisplayFor(modelItem => item.LastName)
+  </td>
+  <td>
+    @Html.DisplayFor(modelItem => item.EmailAddress)
+  </td>
+
+  @{
+      double month = 50;
+
+      DateTime nacimiento = item.DateOfBirth; //Fecha de nacimiento
+                                              //double edad = DateTime.Today.AddTicks(-nacimiento.Ticks).Year - 1;
+      double user = 0;
+      double Age = DateTime.Now.Year - Convert.ToInt32(item.DateOfBirth.Year);
+      double CarYear = 0;
+      double Porsche = 0;
+      double Carrera = 0;
+      double Speedtick = 0;
+      double DUI = 0.0;
+      double coverage = 0.0;
+      double Total = 0.0;
+
+      if (Age <= 18) { user = 100; }
+      else if (19 <= Age && Age <= 25) { user = 50; }
+      else if (Age > 25) { user = 25; }
+
+      if (item.CarYear > 1950 && item.CarYear < 2000 || item.CarYear > 2015 && item.CarYear < 2022) { CarYear = 25; }
+      
+
+      if (item.CarMake == "Porsche") { Porsche = 25; }
+      if (item.CarModel == "911 Carrera"|| item.CarModel == "911 carrera") { Carrera += 25; }
+
+      if (item.SpeedingTickets > 0) { Speedtick += 10 * item.SpeedingTickets; }
+
+      Total = user + CarYear + Porsche + Carrera + Speedtick;
+      if (item.DUI == true) { DUI = Total * 0.25; }
+
+      if (item.CoverageType == true) { coverage = Total * .25; }
+
+
+      Total = DUI + coverage;
+      //if (.CoverageType == "true") baseMonth *= 1.5;
+
+      //double month = Convert.ToDouble(item.CarYear) + 3;
+    <td>       @Math.Round(Age, MidpointRounding.AwayFromZero)     </td>
+    <td>       @Math.Round(user, MidpointRounding.AwayFromZero)     </td>
+    <td>      @Math.Round(CarYear, MidpointRounding.AwayFromZero)    </td>
+    <td>      @Math.Round(Porsche, MidpointRounding.AwayFromZero)    </td>
+    <td>      @Math.Round(Carrera, MidpointRounding.AwayFromZero)    </td>
+
+    <td>      @Math.Round(Speedtick, MidpointRounding.AwayFromZero)    </td>
+
+    <td>      @Math.Round(DUI, MidpointRounding.AwayFromZero)    </td>
+    <td>      @Math.Round(coverage, MidpointRounding.AwayFromZero)    </td>
+    <td>      @Math.Round(Total, MidpointRounding.AwayFromZero)    </td>
+
+  }
+
+
+
+
+  <td>
+    @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+    @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+    @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+  </td>
+</tr>
+}
+
+</table>

@@ -1,0 +1,15 @@
+un modelo es hecho para almancenar objetos complejos 
+ almost
+
+somewhat
+
+framework class library
+
+Los modelos son las cosas en el dominio en el que está trabajando. El dominio es un campo o tema. Si estuviera solicitando un ferrocarril, los posibles modelos serían un tren, un vagón, un pasajero, una división, una ruta, un conductor, etc.
+
+
+Los modelos son clases simples de C # (generalmente solo propiedades) de estas cosas.
+
+ADO son las  siglas de ActiveX Data Object .
+
+
