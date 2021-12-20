@@ -117,8 +117,9 @@ namespace CarInsurance.Controllers
                 double Total = 0.0;
 
                 if (Age <= 18) { user = 100; }
-                else if (19 <= Age && Age <= 25) { user = 50; }
+                else if (19 <= Age && Age < 25) { user = 50; }
                 else if (Age > 25) { user = 25; }
+
 
                 if (insurees.CarYear > 1950 && insurees.CarYear < 2000 || insurees.CarYear > 2015 && insurees.CarYear < 2022) { CarYear = 25; }
 
