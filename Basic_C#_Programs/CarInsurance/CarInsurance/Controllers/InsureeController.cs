@@ -99,8 +99,45 @@ namespace CarInsurance.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "Id,FirstName,LastName,EmailAddress,DateOfBirth,CarYear,CarMake,CarModel,DUI,SpeedingTickets,CoverageType,Quote")] Insurees insurees)
         {
+
             if (ModelState.IsValid)
             {
+                double month = 50;
+
+                DateTime nacimiento = insurees.DateOfBirth; //Fecha de nacimiento
+                                                        //double edad = DateTime.Today.AddTicks(-nacimiento.Ticks).Year - 1;
+                double user = 0;
+                double Age = DateTime.Now.Year - Convert.ToInt32(insurees.DateOfBirth.Year);
+                double CarYear = 0;
+                double Porsche = 0;
+                double Carrera = 0;
+                double Speedtick = 0;
+                double DUI = 0.0;
+                double coverage = 0.0;
+                double Total = 0.0;
+
+                if (Age <= 18) { user = 100; }
+                else if (19 <= Age && Age <= 25) { user = 50; }
+                else if (Age > 25) { user = 25; }
+
+                if (insurees.CarYear > 1950 && insurees.CarYear < 2000 || insurees.CarYear > 2015 && insurees.CarYear < 2022) { CarYear = 25; }
+
+
+                if (insurees.CarMake == "Porsche") { Porsche = 25; }
+                if (insurees.CarModel == "911 Carrera" || insurees.CarModel == "911 carrera") { Carrera += 25; }
+
+                if (insurees.SpeedingTickets > 0) { Speedtick += 10 * insurees.SpeedingTickets; }
+
+                Total = user + CarYear + Porsche + Carrera + Speedtick;
+                if (insurees.DUI == true) { DUI = Total * 0.25; }
+
+                if (insurees.CoverageType == true) { coverage = Total * .5; }
+
+
+                Total = Total + DUI + coverage + month;
+                insurees.Quote = Convert.ToDecimal(Total);
+
+
                 db.Insurees.Add(insurees);
                 db.SaveChanges();
                 return RedirectToAction("Index");
