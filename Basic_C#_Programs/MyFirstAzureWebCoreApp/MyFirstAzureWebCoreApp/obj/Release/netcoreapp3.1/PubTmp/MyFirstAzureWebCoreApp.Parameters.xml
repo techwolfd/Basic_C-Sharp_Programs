@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="MyFirstAzureWebCoreApp20211220205657" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\David\\Documents\\GitHub\\Basic_C-_Programs\\Basic_C\#_Programs\\MyFirstAzureWebCoreApp\\MyFirstAzureWebCoreApp\\obj\\Release\\netcoreapp3\.1\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>
