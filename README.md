@@ -5,9 +5,7 @@ These are some small projects I made using c# and .NET FRAMEWORK
    <ol>
     <li>Car insurnce</li>
     <li>NFL Stats</li>
-     
-  <li>Game 21</li>
-  
+    <li>Game 21</li>
     </ol>
     
 <h3>Car insurance</h3>
