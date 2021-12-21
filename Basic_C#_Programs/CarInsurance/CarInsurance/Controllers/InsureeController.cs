@@ -106,37 +106,34 @@ namespace CarInsurance.Controllers
 
                 DateTime nacimiento = insurees.DateOfBirth; //Fecha de nacimiento
                                                         //double edad = DateTime.Today.AddTicks(-nacimiento.Ticks).Year - 1;
-                double user = 0;
+                
                 double Age = DateTime.Now.Year - Convert.ToInt32(insurees.DateOfBirth.Year);
-                double CarYear = 0;
-                double Porsche = 0;
-                double Carrera = 0;
-                double Speedtick = 0;
-                double DUI = 0.0;
-                double coverage = 0.0;
-                double Total = 0.0;
+             
 
-                if (Age <= 18) { user = 100; }
-                else if (19 <= Age && Age < 25) { user = 50; }
-                else if (Age > 25) { user = 25; }
+                if (Age <= 18) { month += 100; }
+                else if (19 <= Age && Age <= 25) { month += 50; }
+                else if (Age > 25) { month += 25; }
 
 
-                if (insurees.CarYear > 1950 && insurees.CarYear < 2000 || insurees.CarYear > 2015 && insurees.CarYear < 2022) { CarYear = 25; }
+                if ( insurees.CarYear < 2000 || insurees.CarYear > 2015) { month += 25; }
 
 
-                if (insurees.CarMake == "Porsche") { Porsche = 25; }
-                if (insurees.CarModel == "911 Carrera" || insurees.CarModel == "911 carrera") { Carrera += 25; }
-
-                if (insurees.SpeedingTickets > 0) { Speedtick += 10 * insurees.SpeedingTickets; }
-
-                Total = user + CarYear + Porsche + Carrera + Speedtick;
-                if (insurees.DUI == true) { DUI = Total * 0.25; }
-
-                if (insurees.CoverageType == true) { coverage = Total * .5; }
+                if (insurees.CarMake == "Porsche") 
+                { 
+                    month += 25;
+                    if (insurees.CarModel == "911 Carrera" )  month += 25; 
 
 
-                Total = Total + DUI + coverage + month;
-                insurees.Quote = Convert.ToDecimal(Total);
+                }
+
+                if (insurees.SpeedingTickets > 0) { month += 10 * insurees.SpeedingTickets; }
+
+                if (insurees.DUI == true) { month += month * 0.25; }
+
+                if (insurees.CoverageType == true) { month += month * 0.5; }
+
+                 
+                insurees.Quote = Convert.ToDecimal(month);
 
 
                 db.Insurees.Add(insurees);
